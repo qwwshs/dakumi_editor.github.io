@@ -1,16 +1,16 @@
 # Configurations
-title:            Jekyll Gitbook
-longtitle:        Jekyll Gitbook
-author:           HE Tao
-email:            sighingnow@gmail.com
+title:            dakumi
+longtitle:        dakumi_editor
+author:           qwws
+email:            2559873038@qq.com
 description: >
-  Build Jekyll site with the GitBook style.
+  is dakumi editor's documentation site, which is built by jekyll and gitbook.
 
 version:          1.0
 gitbook_version:  3.2.3
 
-url:              'https://sighingnow.github.io'
-baseurl:          '/jekyll-gitbook'
+url:              'https://dakumi_editor.github.io'
+baseurl:          '/dakumi/'
 rss:              RSS
 
 # bootstrap: use the remote theme for the site itself
