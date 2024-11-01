@@ -150,12 +150,29 @@ edit区域位于play区域的右方侧边栏的左方 没有任何按钮
 
 - trans 有三种类型bezier easing function
 
-- type 为bezier时 string应为bezier的点坐标  例如 bezier 0,0,1,1  第奇数个数字代表这个点的x坐标 第偶数个数字代表这个点的y坐标
+- type 为bezier时 string应为bezier的点坐标 第奇数个数字代表这个点的x坐标 第偶数个数字代表这个点的y坐标
 
-- type 为easing时 string应为数字或是easing的名称 例如 easing 1 或是 easing in_circ 其中当string为easing的名称时 因全部字母小写且每个单词用_隔开
+例如 
 
-- type 为function时 string因该为function表达式 函数的传入值为 x 例如 function 1/x 其中x大于等于0 x小于等于1 比如sin这样的函数调用时因该遵循lua的语法
+        bezier 0,0,1,1
 
+        bezier 0,0,0.5,1,2,2
+
+
+- type 为easing时 string应为数字或是easing的名称 其中当string为easing的名称时 因全部字母小写且每个单词用_隔开
+
+ 例如 
+ 
+         easing 1 
+ 
+         easing in_circ 
+
+- type 为function时 string因该为function表达式 函数的传入值为 x 其中x大于等于0 x小于等于1 比如sin这样的函数调用时因该遵循lua的语法
+
+例如 
+
+          function 1/x 
+          function math.cos(x) 
 
 ## 自定义
 - 打击音 请将打击音的前缀改为hit_sound 然后拖入到dakumi_editor的窗口中
