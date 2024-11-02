@@ -131,7 +131,6 @@ edit区域位于play区域的右方侧边栏的左方 没有任何按钮
 |----|----|----|
 |eventx|事件x|单击event|
 |notex|notex|单击note|
-|notex|notex|单击note|
 |multiple_events_edit|多事件编辑|粘贴表选中到event|
 
 - ___因为大部分页面都很清楚 这里只解释部分界面___
