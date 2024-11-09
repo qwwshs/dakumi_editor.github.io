@@ -166,7 +166,7 @@ edit区域位于play区域的右方侧边栏的左方 没有任何按钮
  
          easing in_circ 
 
-- type 为function时 string因该为function表达式 函数的传入值为 x 其中x大于等于0 x小于等于1 比如sin这样的函数调用时因该遵循lua的语法
+- type 为function时 string应该为function表达式 函数的传入值为 x 其中x大于等于0 x小于等于1 比如sin这样的函数调用时因该遵循lua的语法
 
 例如 
 
