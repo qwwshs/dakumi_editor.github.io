@@ -42,7 +42,7 @@ categories: jekyll update
         }
         }
         
-## 细则：
+### 细则：
 
 *  beat的3个数值分别为beat的整数部分 分数分子 分数分母 大小为beat[1] + beat[2] / beat[3]
 
