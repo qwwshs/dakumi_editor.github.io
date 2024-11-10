@@ -9,8 +9,6 @@ categories: jekyll update
 ---
 # **daikumi_editor**  
 
-![dakumi_editor_icon](asset/icon.png) 
-
 
 dakumi_editor是由qwws所制作的tamumi3的饭制谱面编辑器！
 
