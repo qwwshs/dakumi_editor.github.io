@@ -60,15 +60,15 @@ categories: jekyll update
 
 工具栏位于编辑界面上方 包含了一些常用的功能
 
-|按钮|功能|对应的快捷键|图标|
-|----|----|----|----|
-|play/pause|播放当前谱面/停止播放|空格键|![play](asset/ui_play.png)![stop](asset/ui_pause.png)|
-|save|保存|ctrl+s|![save](asset/ui_save.png)|
-|denom|改变节拍细分|up/down键|![up](asset/ui_up.png)![down](asset/ui_down.png)|
-|track|改变当前轨道|right/left键|![up](asset/ui_up.png)![down](asset/ui_down.png)|
-|scale|改变当前轨道缩放|无|![up](asset/ui_up.png)![down](asset/ui_down.png)|
-|fence|改变当前play区域栅栏数|无|![up](asset/ui_up.png)![down](asset/ui_down.png)|
-|music_speed|改变当前播放速度|无|![up](asset/ui_up.png)![down](asset/ui_down.png)|
+|按钮|功能|对应的快捷键|
+|----|----|----|
+|play/pause|播放当前谱面/停止播放|空格键|
+|save|保存|ctrl+s|
+|denom|改变节拍细分|up/down键|
+|track|改变当前轨道|right/left键|
+|scale|改变当前轨道缩放|无|
+|fence|改变当前play区域栅栏数|无|
+|music_speed|改变当前播放速度|无|
 
 ### edit区域
 
@@ -85,7 +85,8 @@ edit区域位于play区域的右方侧边栏的左方 没有任何按钮
 |往复制表里添加/删除该note/event|右键单击选择/删除|无|
 |修改note/event beat|选中note/event后按下alt＋z改变头部beat 类型为hold/event时可以按下alt+x改变尾部beat|无|
 |裁剪event|选中event后按下alt+c|裁剪后的event长度为当前beat细分的1/2|
-
+|翻转event|选中event后按下alt+b|起始值和终点值会镜像|
+|event数值快速更改|选中event后在play区域按下alt+i|如果鼠标指针的所在的beat小于event头的beat会将起始值更改为鼠标所在play位置的x值 否则会更改终点值|
 ### play区域
 - 点击play区域的轨道会将当前轨道切换到该轨道 如果多个轨道叠在一起 再次按下可以切换到下一个轨道
 - 编辑区域无法编辑event 其余编辑方法与edit区域相同
@@ -110,7 +111,8 @@ edit区域位于play区域的右方侧边栏的左方 没有任何按钮
 |粘贴 镜像x事件|ctrl+a+b|裁剪后的粘贴会删除掉裁剪的内容 会粘贴play的event|
 |轨道快速创建|ctrl+n|会依据当前在鼠标所在play的x位置来更改粘贴后event的内容 并且会粘贴到一条新轨道上|
 |轨道快速批量创建|ctrl+a+n|会依据当前在鼠标所在play的x位置来更改粘贴后event的内容 并且会粘贴多条新轨道上|
-
+|同类型事件创建|ctrl+m|会依据当前在鼠标所在play的x位置来更改粘贴后event的内容 并且会粘贴到当前轨道上|
+|批量同类型事件创建|ctrl+a+m|会依据当前在鼠标所在play的x位置来更改粘贴后event的内容 并且会粘贴到原来复制的轨道上|
 ### demo_mode
 - 你可以按下tab进入demo_mode 再次按下退出
 
