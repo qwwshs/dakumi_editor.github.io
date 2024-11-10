@@ -55,7 +55,7 @@ categories: jekyll update
         fake=0,  --为1时为假note
         }
 
-  * event结构：
+* event结构：
 
         {track=3, --所在轨道
         beat={4,1,1,}, --event头部的beat
