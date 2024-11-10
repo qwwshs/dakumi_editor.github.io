@@ -11,7 +11,7 @@ categories: jekyll update
 
 谱面后缀为d3 内部格式为lua table的格式
 
-谱面基本格式：
+## 谱面基本格式：
 
         {
 
