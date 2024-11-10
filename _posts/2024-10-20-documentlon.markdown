@@ -48,7 +48,7 @@ categories: jekyll update
 
 |按钮|功能|注意事项|
 |----|----|----|
-|export|导出谱面为zip|需要有歌曲|
+|export|导出谱面为zip|需要有歌曲 导出后会在zip内附带谱面的json文件|
 |delete music|删除歌曲|需要有歌曲|
 |open file selector|打开dakumi内置的文件选择器|可以选择文件导入 效果和拖动文件到窗口相同|
 |open chart list|打开dakumi_editor的存档文件夹|无|
