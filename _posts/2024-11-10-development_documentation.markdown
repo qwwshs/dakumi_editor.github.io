@@ -61,7 +61,7 @@ categories: jekyll update
         beat={4,1,1,}, --event头部的beat
         beat2={5,1,4,}, --event尾部的beat
         trans={0,0,1,1,}, --bezier的坐标点 只能为三阶bezier曲线
-        form=100, --event起始值
+        from=100, --event起始值 --版本小于等于0.2.0的为form（打错字了）
         type='x', --类型有x w x为轨道中心所在坐标 w为轨道宽度
         to=0, --event终点值
         }
