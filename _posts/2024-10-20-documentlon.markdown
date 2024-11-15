@@ -10,6 +10,8 @@ categories: jekyll update
 
 - 在使用前请切换英文输入法
 
+- 0.3.0之前更新到0.3.0之后需要手动更改谱面后缀成t3
+
 - 在进入谱面编辑前 请一定要新建谱面!!!
 - offset的单位为ms
 
@@ -40,18 +42,17 @@ categories: jekyll update
 
 |按钮|功能|注意事项|
 |----|----|----|
-|edit|进入编辑模式|需要dakumi editor有歌曲 如果在无谱面的情况下进入edit将不能保存|
-|delete|删除当前谱面|需要有谱面才能删除 且确认删除后无法恢复|
-|new chart|新建一个空白的谱面|需要dakumi editor有歌曲|
+|导出|进入编辑模式|需要dakumi editor有歌曲 如果在无谱面的情况下进入edit将不能保存|
+|删除谱面|删除当前谱面|需要有谱面才能删除 且确认删除后无法恢复|
+|新建谱面|新建一个空白的谱面|需要dakumi editor有歌曲|
 
 - 右边按钮依次为export;delete music;open file selector;open chart list
 
 |按钮|功能|注意事项|
 |----|----|----|
-|export|导出谱面为zip|需要有歌曲 导出后会在zip内附带谱面的json文件|
-|delete music|删除歌曲|需要有歌曲|
-|open file selector|打开dakumi内置的文件选择器|可以选择文件导入 效果和拖动文件到窗口相同|
-|open chart list|打开dakumi_editor的存档文件夹|无|
+|导出|导出谱面为zip|需要有歌曲 导出后会在zip内附带谱面的json文件|
+|删除歌曲|删除歌曲|需要有歌曲|
+|目录|打开dakumi_editor的存档文件夹|无|
 
 ## 编辑界面
 
