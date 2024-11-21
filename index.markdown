@@ -7,12 +7,12 @@ title: dakumi
 date:   2024-10-20 09:33:31 +0800
 categories: jekyll update
 ---
-# **daikumi_editor**  
+# **daikumi editor**  
 
 
-dakumi_editor是由qwws所制作的tamumi3的饭制谱面编辑器！
+dakumi editor是由qwws所制作的tamumi3的饭制谱面编辑器！
 
 - 这是github的链接：
 
-- [dakumi_editor](https://github.com/qwwshs/daikumi_editor/tree/main) 
+- [dakumi editor](https://github.com/qwwshs/daikumi/tree/main) 
 ---
