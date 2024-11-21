@@ -14,5 +14,5 @@ dakumi editor是由qwws所制作的tamumi3的饭制谱面编辑器！
 
 - 这是github的链接：
 
-- [dakumi editor](https://github.com/qwwshs/daikumi/tree/main) 
+- [dakumi editor](https://github.com/qwwshs/dakumi/tree/main) 
 ---
