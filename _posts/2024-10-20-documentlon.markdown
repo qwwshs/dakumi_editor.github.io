@@ -50,6 +50,8 @@ categories: jekyll update
 
 |按钮|功能|注意事项|
 |----|----|----|
+|前往github|前往github|无|
+|前往dakumi|前往dakumi|无|
 |导出|导出谱面为zip|需要有歌曲 导出后会在zip内附带谱面的json文件|
 |删除歌曲|删除歌曲|需要有歌曲|
 |目录|打开dakumi_editor的存档文件夹|无|
