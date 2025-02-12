@@ -42,3 +42,12 @@ categories: jekyll update
 3.轨道属性可以在侧边查看 筛选
 
 4.在play区域下方会显示当前鼠标所对应的位置和栅栏（如果鼠标在play区域）
+
+# V0.3.4
+
+1.增加effect功能
+
+2.删除note透明度设置
+
+3.修复了部分bug
+
