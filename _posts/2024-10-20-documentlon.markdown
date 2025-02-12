@@ -181,6 +181,30 @@ edit区域位于play区域的右方侧边栏的左方 没有任何按钮
           function 1/x 
           function math.cos(x) 
 
+### effect
+
+- 目前effect不支持在制谱器内编辑 且只能在演示模式下预览
+
+#### effect编辑
+
+- 请前往谱面保存目录中找到谱面并打开（后缀为d3）然后找到effect = {}
+- 参照写法：
+  
+                effect = {
+                          {trans={0,0,1,1,    },beat2={0,1,4,    },type='note_alpha',beat={0,0,1,    },from=100,to=12.5,  },
+                          {trans={0,0,1,1,    },beat2={4,1,4,    },type='note_rotate',beat={3,0,1,    },from=100,to=12.5,  },
+                          }
+- 其中 每一项应该按照beat从小到大来排列
+- type类型有    note_rotate
+
+|类型|范围|
+|note_alpha|0-100|
+|track_alpha|0-100|
+|track_line_alpha|0-100|
+|note_rotate|0-2pi|
+
+- 如果数值超了范围（除了note_rotate） 超了范围的部分不会显示出来 （比如 note_alpha 值为110 只会显示为100时候的效果）
+
 ## 自定义
 - 打击音 请将打击音的前缀改为hit_sound 然后拖入到dakumi_editor的窗口中
 
